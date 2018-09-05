@@ -22,10 +22,7 @@ export default class Title extends Component {
         <div className="pad-links">
           <div className="format-contact">
             <PdfToggle open={this.state.open} handlePdf={this.handlePdf} />
-            <a
-              className="point"
-              href="mailto:kyleuehlein@gmail.com?Subject=I love your website, you have great taste!"
-            >
+            <a className="point" href="mailto:kyleuehlein@gmail.com">
               <img className="icon" alt="email" src={emailIcon} />
             </a>
             <a className="point" href="tel:908-280-1935">
