@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Kyle Uehlein",
   "private": true,
-  "homepage": "http://kuehlein.github.io/new-personal-site/",
+  "homepage": "https://kuehlein.github.io/new-personal-site/",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
