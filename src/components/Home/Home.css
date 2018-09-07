@@ -1,5 +1,5 @@
 /* Smartphones and tablets ----------- */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 400px) {
   .header {
     position: absolute;
     top: 6vh;
@@ -15,6 +15,38 @@
 
   .icon:active {
     filter: invert(0%);
+  }
+}
+
+/* landscape ----------------------- */
+@media only screen and (min-width: 401px) and (max-width: 1000px) {
+  .header {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .format-social {
+    margin: 0 !important;
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+  }
+
+  .format-contact {
+    margin: 0 !important;
+    display: flex;
+    flex-grow: 3;
+    justify-content: space-around !important;
+  }
+
+  .pad-links {
+    margin-top: 1.5rem;
+  }
+
+  .position-landscape {
+    display: flex;
+    flex-direction: row;
+    width: 76vw;
   }
 }
 
@@ -46,6 +78,11 @@
     font-size: 1rem;
     font-weight: 500;
   }
+
+  /* .position-landscape {
+    display: flex;
+    flex-direction: column;
+  } */
 }
 
 /* screen size neutral ------------- */
