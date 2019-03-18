@@ -4,7 +4,7 @@ import "./Home.css";
 const Description = () => (
   <div className="description">
     <p>
-      Kyle Uehlein is a full-stack software engineer fluent in Javascript and Typescript.
+      Kyle Uehlein is a full-stack software engineer fluent in Javascript, Python and Typescript.
       He is passionate about writing clean, maintainable, DRY code,
       using the industry's best practices.
 
